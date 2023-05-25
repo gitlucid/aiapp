@@ -9,9 +9,9 @@ const Hero = () => {
       <h1 className="head_text">Summarize Web Content <br className="max-xs:hidden" />
         <span className="orange_gradient max-md:text-[.75em]">with OpenAI GPT-4</span>
       </h1>
-<h2 className="desc">
-  Simplify your reading and sharing with Summize, an AI powered article summarizer.
-</h2>
+      <h2 className="desc">
+        Simplify your reading and sharing with my AI powered article summarizer.
+      </h2>
     </header>
   )
 }
