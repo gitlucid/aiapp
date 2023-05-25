@@ -1,14 +1,6 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 
-
-let rapidApiKey;
-
-if (process.env.NODE_ENV === 'production') {
-  rapidApiKey = process.env.RAPID_API_ARTICLE_KEY;
-} else {
-  // Use your local development API key
-  rapidApiKey = import.meta.env.VITE_RAPID_API_ARTICLE_KEY;
-}
+const rapidApiKey = import.meta.env.VITE_RAPID_API_ARTICLE_KEY;
 
 export const articleApi = createApi({
     reducerPath: 'articleApi',
